@@ -1,0 +1,22 @@
+{
+  "buildOnSave": false,
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "es5",
+    "moduleResolution": "node",
+    "outFile": "build/",
+    "watch": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist/**"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

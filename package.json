@@ -4,12 +4,44 @@
   "description": "",
   "main": "dist/exemplo.js",
   "scripts": {
-    "comp": "tsc -p src",
+    "comp": "tsc src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "hoda5",
   "license": "GPL 3.0",
   "dependencies": {
     "typescript": "next"
-  }
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.22-alpha",
+    "@types/mocha": "^2.2.21-alpha",
+    "@types/sinon": "^1.16.20-alpha",
+    "@types/sinon-chai": "^2.7.20-alpha",
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-sinon-chai": "^1.2.0",
+    "karma-coveralls": "^1.1.2",
+    "karma-coverage": "^1.0.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-typescript-preprocessor2": "",
+    "karma-mocha": "^1.0.1",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0",
+    "ts-node": "^0.9.1",
+    "tslint": "^3.11.0"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "npmFileMap": [
+    {
+      "basePath": "dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ]
 }
