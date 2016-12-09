@@ -1,0 +1,5 @@
+{
+  "typescript.check.tscVersion": false,
+  "typescript.check.workspaceVersion": true,
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
